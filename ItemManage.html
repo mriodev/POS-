@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POS System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="#" class="logo">POS</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="CusManage.html">Customer Management</a></li>
+            <li><a href="ItemManage.html">Item Management</a></li>
+            <li><a href="PlaceOrder.html">Place Order</a></li>
+        </ul>
+    </header>
+    <div class="sec">
+        <h2>ADD ITEM</h2>
+        <div class="form">
+            <form name="Reg" method="post">
+
+                <table>
+                    <tr>
+                        <td width="380px"><input type="text" id="StID" placeholder="Name" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+
+                        <td><input type="text" id="price" placeholder="Price" required></td>
+                    </tr>
+                    <tr>
+
+                        <td><input type="text" id="quantity" placeholder="Quantity" required> </td>
+                    </tr>
+
+
+                </table>
+                <br />
+                <table align="center">
+                    <tr>
+
+                        <td><input type="submit" value="Register"></td>
+                        <td><input type="submit" value="Update"></td>
+                        <td><input type="submit" value="Delete"></td>
+                        <td><input type="reset" value="Reload"></td>
+
+                    </tr>
+                </table>
+                <br />
+            </form>
+        </div>
+        <div class="table">
+            <table border="1" align="center">
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+
+
+                <tr style="font-size: large">
+
+                </tr>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>
